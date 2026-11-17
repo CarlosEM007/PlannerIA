@@ -1,0 +1,47 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="CorFundo">#F4F5F9</Color>
+    <Color x:Key="CorLateral">#ECEEF4</Color>
+    <Color x:Key="CorSuperficie">#FFFFFF</Color>
+    <Color x:Key="CorSuperficie2">#F2F3F8</Color>
+    <Color x:Key="CorSuperficieHover">#E8EAF2</Color>
+    <Color x:Key="CorBorda">#E1E4EC</Color>
+    <Color x:Key="CorTexto">#151922</Color>
+    <Color x:Key="CorTextoSuave">#5D6575</Color>
+    <Color x:Key="CorTextoFraco">#A0A7B4</Color>
+    <Color x:Key="CorAcento">#6A4CF5</Color>
+    <Color x:Key="CorAcento2">#A45BFF</Color>
+    <Color x:Key="CorAcentoSuave">#ECE8FF</Color>
+    <Color x:Key="CorSucesso">#12A58B</Color>
+    <Color x:Key="CorAviso">#D98A00</Color>
+    <Color x:Key="CorPerigo">#E03558</Color>
+    <Color x:Key="CorSombra">#4A4F6A</Color>
+
+    <SolidColorBrush x:Key="Fundo" Color="{StaticResource CorFundo}" />
+    <SolidColorBrush x:Key="Lateral" Color="{StaticResource CorLateral}" />
+    <SolidColorBrush x:Key="Superficie" Color="{StaticResource CorSuperficie}" />
+    <SolidColorBrush x:Key="Superficie2" Color="{StaticResource CorSuperficie2}" />
+    <SolidColorBrush x:Key="SuperficieHover" Color="{StaticResource CorSuperficieHover}" />
+    <SolidColorBrush x:Key="Borda" Color="{StaticResource CorBorda}" />
+    <SolidColorBrush x:Key="Texto" Color="{StaticResource CorTexto}" />
+    <SolidColorBrush x:Key="TextoSuave" Color="{StaticResource CorTextoSuave}" />
+    <SolidColorBrush x:Key="TextoFraco" Color="{StaticResource CorTextoFraco}" />
+    <SolidColorBrush x:Key="Acento" Color="{StaticResource CorAcento}" />
+    <SolidColorBrush x:Key="AcentoSuave" Color="{StaticResource CorAcentoSuave}" />
+    <SolidColorBrush x:Key="Sucesso" Color="{StaticResource CorSucesso}" />
+    <SolidColorBrush x:Key="Aviso" Color="{StaticResource CorAviso}" />
+    <SolidColorBrush x:Key="Perigo" Color="{StaticResource CorPerigo}" />
+    <SolidColorBrush x:Key="Trilho" Color="#E6E8F0" />
+    <SolidColorBrush x:Key="Backdrop" Color="#66202436" />
+    <SolidColorBrush x:Key="TextoSobreAcento" Color="#FFFFFF" />
+
+    <LinearGradientBrush x:Key="Gradiente" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Offset="0" Color="{StaticResource CorAcento}" />
+        <GradientStop Offset="1" Color="{StaticResource CorAcento2}" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="GradienteHero" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Offset="0" Color="#E9E4FF" />
+        <GradientStop Offset="0.6" Color="#F6F3FF" />
+        <GradientStop Offset="1" Color="#FFFFFF" />
+    </LinearGradientBrush>
+</ResourceDictionary>
