@@ -1,4 +1,4 @@
-# RotinaAI (nome provisório)
+# PlannerIA
 
 Aplicativo desktop em WPF/.NET para planejar a rotina por mês, semana e dia, com tarefas principais, subtarefas e checkbox. Você descreve o que quer em linguagem natural, a IA (Claude, via API da Anthropic) devolve um plano estruturado e o app mostra uma prévia antes de salvar.
 
